@@ -1,0 +1,14 @@
+Sandwiches:
+Sandwich 1: Size: 12, Bread: white, Toasted
+  Meats: [chicken]
+  Cheeses: [American]
+  Toppings: [Lettuce, Tomatoes, Onions, Pickles]
+  Sauces: [Mayo, Mustard]
+
+Drinks:
+Drink 1: Size: Medium, Flavor: Coke
+
+Chips:
+Chips 1: Lays BBQ
+
+Total: $19.25

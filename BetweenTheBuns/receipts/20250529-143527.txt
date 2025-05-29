@@ -1,0 +1,17 @@
+Sandwiches:
+Sandwich 1: Size: 8, Bread: white, Toasted
+  Meats: [chicken]
+  Cheeses: [american]
+  Toppings: [lettuce, tomatoes, pickles, onions]
+  Sauces: [mayo, mustard]
+Sandwich 2: Size: 8, Bread: white, Toasted
+  Meats: [ham]
+  Cheeses: [swiss]
+  Toppings: [tomatoes, onions, pickles]
+  Sauces: [mustard]
+
+Drinks:
+
+Chips:
+
+Total: $22.60

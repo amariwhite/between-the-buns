@@ -1,0 +1,8 @@
+Sandwiches:
+
+Drinks:
+Drink 1: Size: Large, Flavor: Coke
+
+Chips:
+
+Total: $3.00

@@ -1,0 +1,14 @@
+Sandwiches:
+Sandwich 1: Size: 4, Bread: white, Toasted
+  Meats: [Roast Beef]
+  Cheeses: [Swiss]
+  Toppings: [Lettuce, Onions, Tomatoes, Pickles]
+  Sauces: [Mayo, Mustard]
+
+Drinks:
+Drink 1: Size: Medium, Flavor: Coke Zero
+
+Chips:
+Chips 1: Lays BBQ
+
+Total: $12.05

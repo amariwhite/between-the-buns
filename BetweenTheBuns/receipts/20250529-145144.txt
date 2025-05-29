@@ -1,0 +1,14 @@
+Sandwiches:
+Sandwich 1: Size: 8, Bread: white, Toasted
+  Meats: [chicken]
+  Cheeses: [american]
+  Toppings: [lettuce, tomatoes, pickles, onions]
+  Sauces: [mayo, mustard]
+
+Drinks:
+Drink 1: Size: Medium, Flavor: Coke Zero
+
+Chips:
+Chips 1: Lays Original
+
+Total: $16.10

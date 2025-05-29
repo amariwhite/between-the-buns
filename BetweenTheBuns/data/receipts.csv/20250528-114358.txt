@@ -1,0 +1,14 @@
+Sandwiches:
+Sandwich 1: Size: 12, Bread: wheat, Toasted
+  Meats: [ham]
+  Cheeses: [yes]
+  Toppings: [olives, tomatoes, lettuce, bacon]
+  Sauces: [honey mustard]
+
+Drinks:
+Drink 1: Size: large, Flavor: lean
+
+Chips:
+Chips 1: rap snacks
+
+Total: $20.65
