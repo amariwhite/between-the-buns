@@ -29,6 +29,106 @@ The application supports:
 Confirmed orders are saved to **receipts.txt** inside of the **receipts** directory, allowing for easy logging and reference. 
 
 ---
+## UML Class Diagram
+
+```mermaid
+classDiagram
+
+class Sandwich {
+  -size
+  -bread: BreadType
+  -toppings: List~RegularTopping~
+  -sauces: List~Sauce~
+  +getPrice(): double
+}
+
+class BLT {
+  +getPrice(): double
+}
+BLT --|> Sandwich
+
+class PhillyCheeseSteak {
+  +getPrice(): double
+}
+PhillyCheeseSteak --|> Sandwich
+
+class Drink {
+  -name: String
+  -size
+}
+
+class Chip {
+  -flavor: String
+}
+
+class Order {
+  -items
+  +getTotal(): double
+}
+
+class ReceiptManager {
+  +save(order): void
+}
+
+class BreadType
+class Meat
+class Sauce
+class RegularTopping
+
+BreadType : enum
+Meat : enum
+Sauce : enum
+RegularTopping : enum
+
+Order --> Sandwich
+Order --> Chip
+Order --> Drink
+Sandwich --> BreadType
+Sandwich --> RegularTopping
+Sandwich --> Sauce
+
+class HomeScreen {
+  <<interface>>
+  +display(): void
+}
+
+class HomeScreen {
+  +display(): void
+}
+HomeScreen ..|> HomeScreen
+
+class OrderScreen {
+  +display(): void
+}
+OrderScreen ..|> HomeScreen
+
+class Checkout {
+  +display(): void
+}
+Checkout ..|> HomeScreen
+
+class AddSandwich {
+  +display(): void
+}
+AddSandwich ..|> HomeScreen
+
+class AddDrink {
+  +display(): void
+}
+AddDrink ..|> HomeScreen
+
+class AddChips {
+  +display(): void
+}
+AddChips ..|> HomeScreen
+
+class Program {
+  +main(args[]): void
+}
+```
+
+
+---
 
 ## 💡 Interesting Code Highlight
 
