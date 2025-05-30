@@ -25,11 +25,11 @@ The application supports:
 3. Set **Program** as the main class
 4. Run the application
 ---
-## Ouput
+## 📃 Ouput
 Confirmed orders are saved to **receipts.txt** inside of the **receipts** directory, allowing for easy logging and reference. 
 
 ---
-## UML Class Diagram
+## 📊 UML Class Diagram
 
 ```mermaid
 classDiagram
